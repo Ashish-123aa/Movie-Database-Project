@@ -1,0 +1,122 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mainContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header{
+  position: absolute;
+  inset: 0;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #141417;
+  text-align: center;
+}
+
+.mainText{
+  font-size: 2rem;
+}
+
+.subText{
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
+
+.search {
+  margin-top: 5rem;
+  height: 1.5rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchInput {
+  background-color: #141417aa;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  outline: none;
+  color: #e6e6e6;
+}
+
+.searchButton {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  align-self: center;
+  cursor: pointer;
+}
+
+.searchIcon {
+  align-self: center;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.contentSection{
+  height: 95dvh;
+  width: 95dvw;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.moviePoster, .movieDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.movieDetails{
+  max-width: 60rem;
+}
+
+.posterHeading, .detailsHeading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.movieDetail{
+  margin-top: 1rem;
+  text-wrap: balance;
+}
+
+.label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #e6e6e6aa;
+}
+
+.rating{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rtLogo {
+  aspect-ratio: 1;
+  height: 2rem;
+  margin-left: 0.5rem;
+}
